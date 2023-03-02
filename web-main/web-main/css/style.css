@@ -229,7 +229,6 @@ body.section-show .section.active{
 	height:26px;
 	width:26px;
 	line-height:26px;
-	vertical-align:middle;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
@@ -1623,7 +1622,6 @@ body .symp-btn{
 	height:inherit;
 	width:inherit;
 	line-height:inherit;
-	vertical-align:middle;
 	-webkit-transform:rotate(-45deg);
 	-moz-transform:rotate(-45deg);
 	-ms-transform:rotate(-45deg);
@@ -1916,6 +1914,39 @@ body .symp-btn{
 		transform:rotate(-45deg) translateY(100px);
 		position:absolute;
 		bottom:0;
-		left:-40px;
+		left:-50px;
+		top: 10px;
+	}
+}
+
+/* Self Written Code */
+
+/* Skills section */
+@media (min-width: 900px) {
+
+	.skills-row{
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-top: 15px;
+		display:flex;
+		justify-content: center;
+	}
+	
+}
+@media (max-width: 400px) {
+	.skills-row{
+		padding-top: 20px;
+	}
+
+	.front-person-img > img{
+		-webkit-transform:rotate(-45deg) translateY(45px);
+		-moz-transform:rotate(-45deg) translateY(45px);
+		-ms-transform:rotate(-45deg) translateY(45px);
+		-o-transform:rotate(-45deg) translateY(45px);
+		transform:rotate(-45deg) translateY(100px);
+		position:absolute;
+		bottom:0;
+		left:30px;
+		top: 40px;
 	}
 }
