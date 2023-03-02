@@ -481,8 +481,13 @@ body.section-show .transition-mask:before{
 	border-radius:0;
 }
 .front-person-img > img{
-	max-width:100%;
+	max-width:150%;
+	height: 150%;
+	margin-top: -160px;
+	margin-left: -150px;;
 	vertical-align:bottom;
+	object-fit: cover;
+	/* object-position: center; */
 	-webkit-transform:rotate(-45deg) translateY(40px);
 	-moz-transform:rotate(-45deg) translateY(40px);
 	-ms-transform:rotate(-45deg) translateY(40px);
